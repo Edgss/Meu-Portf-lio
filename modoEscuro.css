@@ -1,0 +1,57 @@
+/*Body Geral*/
+body.dark{
+    background-color: white;
+    color: black;
+}
+/*Redes sociais*/
+body.dark .redes ul li{
+    background-color: white;
+}
+
+body.dark .icon{color: black;}
+body.dark .text{color: black;}
+
+/*Botão*/
+.trilho.dark{
+    border: 1px solid black;
+}
+
+
+.trilho.dark .botao{
+    background-color: black;
+    left: 40px;
+}
+
+
+/*Menu*/
+body.dark nav header{
+    background-color: #eee;
+    border: none;
+}
+body.dark nav a{
+    color: black;
+}
+
+body.dark nav a:hover{
+    background-color: #3333334d;
+    color: white;
+}
+
+body.dark nav a:hover::after{
+    background-color: black;
+}
+
+/*Sections*/
+body.dark h2{
+    color: black;
+}
+
+/*Section Sobre Mim*/
+body.dark .sobre{
+    border: none;
+}
+
+/*Section Habilidades*/
+body.dark .habilidades{
+    background-color: #eee;
+}
