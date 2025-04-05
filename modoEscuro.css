@@ -55,3 +55,24 @@ body.dark .sobre{
 body.dark .habilidades{
     background-color: #eee;
 }
+
+/*Section Contatos*/
+
+body.dark .contatos{
+    color: black;
+    background-color: #eee;
+}
+
+body.dark .gmail-icon ul li{
+    background-color: white;
+}
+
+body.dark .sinopses{
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+@media (min-width:768px){
+    body.dark .trilho .botao{
+        left: 51px;
+    }
+}

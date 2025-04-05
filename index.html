@@ -12,29 +12,37 @@
 <header>
     <h1>Portfólio</h1>
 
-    <div class="redes">
+    <div class="redes-siga">
+        <div class="redes">
+            <a href="https://www.instagram.com/_edu4rdo_g_/" target="_blank">
+                <ul>
+                    <li class="instagram">
+                        <span class="icon"><i class="bi-instagram"></i></span>
+                        <span class="text">Instagram</span>
+                    </li>
+                </ul>
+            </a>
 
-        <ul>
-            <li class="instagram">
-                <span class="icon"><i class="bi-instagram"></i></span>
-                <span class="text">Instagram</span>
-            </li>
-        </ul>
+            <a href="https://github.com/Edgss" target="_blank">
+                <ul>
+                    <li class="github">
+                        <span class="icon"><i class="bi-github"></i></span>
+                        <span class="text">Github</span>
+                    </li>
+                </ul>
+            </a>
 
-        <ul>
-            <li class="instagram">
-                <span class="icon"><i class="bi-github"></i></span>
-                <span class="text">Github</span>
-            </li>
-        </ul>
-
-        <ul>
-            <li class="instagram">
-                <span class="icon"><i class="bi-linkedin"></i></span>
-                <span class="text">Linkedin</span>
-            </li>
-        </ul>
-    </div><!--Fim da div redes-->
+            <a href="https://www.linkedin.com/in/eduardo-gomes-0857a7259/" target="_blank">
+                <ul>
+                    <li class="linkedin">
+                        <span class="icon"><i class="bi-linkedin"></i></span>
+                        <span class="text">Linkedin</span>
+                    </li>
+                </ul>
+            </a>
+        </div><!--Fim da div redes-->
+        <p><strong>Siga-me nas redes</strong></p>
+    </div>
 
     <div class="trilho" id="trilho">
         <div class="botao"></div>
@@ -46,7 +54,7 @@
     <ul>
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#">Portfólio</a></li>
+        <li><a href="#projetos">Projetos</a></li>
         <li><a href="#">Contatos</a></li>
     </ul>
 </nav>
@@ -92,7 +100,65 @@
 
 <section  id="projetos" class="projetos">
     <h2>Meus Projetos</h2>
+
+    <div class="galeria">
+
+    <a href="../Projeto 4 - Imagens com Sinopse/index.html" target="_blank">
+        <div class="overflow site1">
+            <div class="sinopses">
+                <h4>Animes</h4>
+            </div>
+        </div>
+    </a>
+    
+    <a href="../Projeto 3 - Galeria Pinterest/index.html" target="_blank">
+        <div class="overflow site2">
+            <div class="sinopses">
+                <h4>Galeria de Fotos</h4>
+            </div>
+        </div>
+    </a>
+    
+    <a href="../Projeto 5 - Cinema/index.html" target="_blank">
+        <div class="overflow site3">
+            <div class="sinopses">
+                <h4>Cinema</h4>
+            </div>
+        </div>
+    </a>
+    </div><!--Fim da div galeria-->
 </section>
+
+
+    <section class="contatos" id="contatos">
+    <h2>Entre em contato comigo</h2>
+
+    <form action="dados">
+        <h4>Nome:</h4>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
+        
+        <h4>Email:</h4>
+        <input type="email" id="email" name="email" placeholder="Digite seu email"><br>
+
+        <button class="botao-envio">Enviar</button>
+    </form>
+    <p class="preferencia">Ou se preferir</p>
+
+    <div class="gmail">
+        <div class="gmail-icon">
+            <ul>
+                <li>
+                    <span class="icon-gmail"><i class=" bi-envelope"></i></span>
+                    <span class="text-gmail">Enviar e-mail</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </section>  
+
+    <footer>
+        <p>Site criado e projetado por Eduardo Gomes &copy; Todos os direitos reservados.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
